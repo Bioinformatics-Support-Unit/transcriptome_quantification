@@ -1,5 +1,6 @@
 library(ggplot2)
 library(matrixStats)
+library(Biostrings)
 
 # Accessory functions to get raw counts from output files
 get_salmon_counts = function(file) {
